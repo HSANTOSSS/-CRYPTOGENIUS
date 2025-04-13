@@ -1,34 +1,25 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Tudo sobre Bitcoin e Criptomoedas. Aprenda do básico ao avançado com o CRYPTOGENIUS." />
-  <title>CRYPTOGENIUS - Domine o Mundo Cripto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cryptogenius - Preços em Tempo Real</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>CRYPTOGENIUS</h1>
-    <nav>
-      <a href="#">Início</a>
-      <a href="#">Bitcoin</a>
-      <a href="#">Trading</a>
-      <a href="#">Glossário</a>
-      <a href="#">Contato</a>
-    </nav>
-  </header>
-  <section class="hero">
-    <h2>O Futuro é Cripto</h2>
-    <p>Aprenda tudo sobre Bitcoin, blockchain, investimentos e torne-se um gênio das criptomoedas.</p>
-    <a class="btn" href="#">Comece Agora</a>
-  </section>
-  <section class="intro">
-    <h3>O que é o CRYPTOGENIUS?</h3>
-    <p>É o portal mais completo e futurista sobre criptomoedas do mundo. Do iniciante ao expert.</p>
-  </section>
-  <footer>
-    <p>© 2025 CRYPTOGENIUS. Todos os direitos reservados.</p>
-  </footer>
+  <div class="header">
+    <h1>Cryptogenius</h1>
+    <p>Preços de Criptomoedas em Tempo Real</p>
+  </div>
+
+  <div class="crypto-price" id="bitcoin-price">
+    <h2>Preço do Bitcoin: <span id="btc-price">Carregando...</span></h2>
+  </div>
+
+  <div class="crypto-price" id="ethereum-price">
+    <h2>Preço do Ethereum: <span id="eth-price">Carregando...</span></h2>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
