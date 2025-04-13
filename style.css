@@ -1,0 +1,75 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0e0e0e;
+  color: #f2f2f2;
+}
+
+header {
+  background: #1a1a1a;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  color: #0ff;
+}
+
+nav a {
+  margin-left: 1rem;
+  color: #ccc;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #0ff;
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #0ff, #04f);
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background: #000;
+  color: #0ff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border: 2px solid #0ff;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #0ff;
+  color: #000;
+}
+
+.intro {
+  padding: 3rem 2rem;
+  background: #141414;
+  text-align: center;
+}
+
+footer {
+  background: #1a1a1a;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #777;
+}
